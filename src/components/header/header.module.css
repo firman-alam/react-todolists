@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.headerTitle {
+  width: 52%;
+  text-align: center;
+
+  color: var(--main-black-color);
+  font-size: 3.8rem;
+  font-family: "Sofia", sans-serif;
+  text-transform: lowercase;
+}

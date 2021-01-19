@@ -45,14 +45,13 @@ body.html {
   flex-direction: column;
   justify-content: space-between;
 }
-
+/*
 .header {
   display: flex;
   align-items: flex-start;
 }
 
 .header-title {
-  /*flex: 1; */
   width: 52%;
   text-align: center;
 
@@ -61,6 +60,8 @@ body.html {
   font-family: "Sofia", sans-serif;
   text-transform: lowercase;
 }
+
+*/
 
 .add {
   padding: 16px;

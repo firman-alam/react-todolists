@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import Button from "../button/button";
 
-import styles from ".header/header.module.css";
+import styles from "./header.module.css";
 
 const Header = ({ showAddToggle, showAdd, clearTodos }) => {
   return (

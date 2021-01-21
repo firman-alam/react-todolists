@@ -65,6 +65,7 @@ body.html {
 
 */
 
+/*
 .add {
   padding: 16px;
 }
@@ -106,13 +107,15 @@ body.html {
 .add-btn.main-black-color:active {
   text-shadow: 1px 1px 2px var(--main-black-color);
 }
-
+*/
+/*
 .todos {
   display: flex;
   flex-direction: column;
 
   min-height: 500px;
 }
+*/
 /*
 .todo {
   position: relative;
@@ -138,6 +141,7 @@ body.html {
 
 */
 
+/*
 .todo-placeholder-text {
   font-family: "Sofia", sans-serif;
   font-size: 24px;
@@ -149,3 +153,4 @@ body.html {
   font-family: "Bungee", sans-serif;
   font-size: 24px;
 }
+*/

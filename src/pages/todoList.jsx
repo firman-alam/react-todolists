@@ -5,6 +5,8 @@ import Header from "../components/header/header";
 import TodoForm from "../components/todoForm/todoForm";
 import Todos from "../components/todos/todos";
 
+import Container from "../layout/container";
+
 const TodoList = () => {
   const [todos, setTodos] = useState([
     { text: "Learning React!", isCompleted: false },
@@ -39,13 +41,19 @@ const TodoList = () => {
 
   return (
     <Paper>
-      <Header
-        showAddToggle={showAddToggle}
-        showAdd={showAdd}
-        clearTodos={clearTodos}
-      />
-      <TodoForm addTodo={addTodo} showAdd={showAdd} />
-      <Todos todos={todos} completeTodo={completeTodo} />
+      <Container
+        flexDirection="column"
+        justifyContent="space-between"
+        height="100%"
+      >
+        <Header
+          showAddToggle={showAddToggle}
+          showAdd={showAdd}
+          clearTodos={clearTodos}
+        />
+        <TodoForm addTodo={addTodo} showAdd={showAdd} />
+        <Todos todos={todos} completeTodo={completeTodo} />
+      </Container>
     </Paper>
   );
 };

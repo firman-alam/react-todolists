@@ -1,5 +1,4 @@
 /** @jsx jsx */
-//import React from "react";
 import { jsx } from "@emotion/react";
 import PropTypes from "prop-types";
 import { useTheme } from "@emotion/react";
@@ -8,7 +7,6 @@ import Button from "../button/buttonClass";
 import Container from "../../layout/container";
 import Item from "../../layout/item";
 
-// import styles from "./header.module.css";
 import * as styles from "./header.styles";
 
 const Header = ({ showAddToggle, showAdd, clearTodos }) => {

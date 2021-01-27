@@ -34,7 +34,7 @@ Container.defaultProps = {
   justifyContent: "flex-start",
   alignItems: "stretch",
   alignContent: "stretch",
-  height: "100%"
+  height: "auto"
 };
 
 Container.propTypes = {

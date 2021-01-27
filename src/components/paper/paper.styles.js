@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 export const paper = ({ theme }) =>
   css`
     width: 600px;
-    height: 800px;
+    height: 700px;
     background-color: ${theme.background.color.primary};
     border-radius: 4px;
 

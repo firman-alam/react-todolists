@@ -44,7 +44,7 @@ const TodoList = () => {
       <Container
         flexDirection="column"
         justifyContent="space-between"
-        height="100"
+        height="100%"
       >
         <Header
           showAddToggle={showAddToggle}

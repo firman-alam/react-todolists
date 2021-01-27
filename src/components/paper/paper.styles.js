@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 export const paper = ({ theme }) =>
   css`
     width: 600px;
-    height: 700px;
+    height: 800px;
     background-color: ${theme.background.color.primary};
     border-radius: 4px;
 
@@ -13,7 +13,7 @@ export const paper = ({ theme }) =>
 export const frame = ({ theme }) =>
   css`
     border: 1px solid ${theme.color.primary.black};
-    /* height: 100%; */
+    height: 100%;
     /*display: flex;
     flex-direction: column;
     justify-content: space-between;*/

@@ -48,8 +48,7 @@ const TodoForm = ({ addTodo, showAdd }) => {
               />
             </Item>
             <Item>
-              {/* <button css={styles.addBtn({ theme })}>Add</button> */}
-              <Button text="Add" color="black" />
+              <Button text="Add" />
             </Item>
           </Container>
         </form>

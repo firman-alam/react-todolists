@@ -9,7 +9,7 @@ export const todo = ({ theme }) =>
     margin: 16px 0 0;
     font-family: "Sofia", sans-serif;
     font-size: 24px;
-    border-bottom: 1px solid var(--main-red-color);
+    border-bottom: 1px solid ${theme.color.primary.red};
   `;
 
 export const todoText = ({ theme, isCompleted }) =>
